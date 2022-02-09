@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "ridwanzal"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="chore(bot): 😂 auto commit @ridwanzal repo"
+          arr[1]="chore(bot): 😱 auto commit @ridwanzal repo"
+          arr[2]="chore(bot): 👿 auto commit @ridwanzal repo"
+          arr[3]="chore(bot): 💩 auto commit @ridwanzal repo"
+          arr[4]="chore(bot): 🙏 auto commit @ridwanzal repo"
+          arr[5]="chore(bot): 🙈 auto commit @ridwanzal repo"
+          arr[6]="chore(bot): 🐐 auto commit @ridwanzal repo"
+          arr[7]="chore(bot): 🤖 auto commit @ridwanzal repo"
+          arr[8]="chore(bot): 🟩 auto commit @ridwanzal repo"
+          arr[9]="chore(bot): 👻 auto commit @ridwanzal repo"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
